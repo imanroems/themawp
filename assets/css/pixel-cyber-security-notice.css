@@ -1,0 +1,294 @@
+/* NOTICE */
+.pixel-cyber-security-theme-info-notice {
+    padding: 10px 0;
+}
+h2.pixel-cyber-security-notice-h2 {
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    font-size: 2.3em;
+}
+.pixel-cyber-security-theme-notice-content {
+    display: flex !important;
+    align-items: center;
+    gap: 30px !important;
+}
+a#pixel-cyber-security-themeinfo-button, a#pixel-cyber-security-bundle-button {
+    padding: 4px 10px !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+a#pixel-cyber-security-themeinfo-button {
+    margin-right: 30px;
+}
+a#pixel-cyber-security-bundle-button {
+    background: #657EFF;
+    border: none !important;
+    padding: 5px 25px !important;
+}
+a#pixel-cyber-security-bundle-button:hover {
+    background: #000 !important;
+    color: #fff !important;
+}
+.notice-content {
+    width: 60%;
+    padding-left: 40px;
+}
+.notice-image{
+    width: 40%;
+    text-align: center;
+}
+.notice-image img {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+p.pixel-cyber-security-notice-p {
+    color: #fff;
+    font-size: 14px;
+}
+.inner-notice-buttons{
+    margin-top: 30px;
+}
+.pixel-cyber-security-btn-theme-info.bundlee {
+    margin: 0 15px;
+}
+.pixel-cyber-security-btn-theme-info.live-demoo{
+    background: #ffffff !important;
+    color: #000 !important;
+}
+.notice-theme-info-class{
+    background:linear-gradient(81deg, #E8411D 0%, #FAAC52 100%) !important;
+}
+h2.pixel-cyber-security-notice-h2 {
+    color: #fff;
+}
+
+
+/* NOTICE UPDATE CSS */
+
+.notice-theme-info-class {
+    padding: 0;
+    border-left: 4px solid #22a000;
+    background: #fff;
+}
+
+/* ===============================
+   BUTTONS – SAME WIDTH EVERYWHERE
+   =============================== */
+
+.inner-notice-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px 18px;
+    width: 100%;
+    max-width: 520px;
+    margin: 20px auto 0;
+}
+
+/* ALL BUTTONS SAME SIZE */
+.inner-notice-buttons a {
+    width: 100%;
+    min-height: 46px;
+    padding: 12px 16px;
+    margin: 0 !important;
+    box-sizing: border-box;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.pixel-cyber-security-theme-info-notice {
+    padding: 20px;
+}
+
+.pixel-cyber-security-theme-notice-content {
+    display: flex;
+    flex-direction: column; /* IMPORTANT */
+    align-items: center;
+    gap: 20px;
+}
+
+/* Screenshot */
+.notice-image {
+    width: 70%;
+    text-align: center;
+}
+
+.notice-image img {
+    max-width: 300px;
+    width:100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Content */
+.notice-content {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+.inner-notice-contetn h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pixel-cyber-security-notice-p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.inner-notice-buttons {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    justify-content: center;
+}
+
+.inner-notice-buttons .button {
+    padding: 12px 10px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* Button Colors */
+.buy-noww {
+    background: #657eff !important;
+    border-color: #657eff !important;
+}
+
+.bundlee {
+    background: #657eff !important;
+    color: #ffffff !important;
+}
+
+.live-demoo {
+    background: #3ab866 !important;
+}
+
+@media (max-width:767px) {
+
+.inner-notice-buttons {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    gap: 14px;
+}
+
+/* ALL BUTTONS SAME WIDTH */
+.inner-notice-buttons a {
+    width: 100%;
+    max-width: 320px;        
+    margin: 0 !important;   
+    padding: 12px 16px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pixel-cyber-security-btn-theme-info.bundlee {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+    .inner-notice-contetn h2 {
+        font-size: 18px;
+    }
+
+    .pixel-cyber-security-notice-p {
+        font-size: 13px;
+    }
+
+    .inner-notice-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .inner-notice-buttons .button {
+        width: 129%;
+    }
+}
+
+
+@media (min-width:767px) and (max-width: 1024px) {
+
+    .notice-image img {
+        max-width: 600px;
+    }
+
+    .inner-notice-contetn h2 {
+        font-size: 20px;
+    }
+
+    .inner-notice-buttons {
+        grid-template-columns: repeat(2, 1fr);
+        max-width:647px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* ===============================
+   DESKTOP VIEW – IMAGE RIGHT
+   =============================== */
+@media (min-width: 1025px) {
+
+    .pixel-cyber-security-theme-notice-content {
+        flex-direction: row;              
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    /* Content LEFT */
+    .notice-content {
+        width: 65%;
+        text-align: left;
+    }
+
+    .inner-notice-contetn h2,
+    .pixel-cyber-security-notice-p {
+        text-align: left;
+    }
+
+    /*DESKTOP BUTTON FIX – 4 IN ONE LINE */
+    .inner-notice-buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 buttons one row */
+        gap: 14px;
+        max-width: 100%;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .inner-notice-buttons a {
+        min-height: 46px;
+        padding: 12px 14px;
+        font-size: 13.5px;
+        white-space: nowrap;
+    }
+
+    /* Image RIGHT */
+    .notice-image {
+        width: 35%;
+        text-align: right;
+    }
+
+
+}
